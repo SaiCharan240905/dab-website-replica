@@ -51,23 +51,6 @@ Version Control: Git and GitHub
 
 IDE/Editor: VS Code (recommended)
 
-## 💡 Getting Started
-To run the project locally:
-
-# Clone this repository
-git clone https://github.com/SaiCharan240905/dab-website-replica
-
-# Navigate into the project directory
-cd your-repo-name
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm start
-
-Then open http://localhost:3000 in your browser.
-
 ## 📌 Folder Naming Convention
 
 assets/ – Images like kiran.jpg, diamond.jpg
