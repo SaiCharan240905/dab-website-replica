@@ -5,6 +5,7 @@ This repository contains a fully functional, front-end clone of the [Diamond Ass
 ## 📁 Project Structure
 
 src/
+
 ├── assets/         # Images, icons, and other static files
 
 ├── components/     # Reusable UI components (Header, Footer, Navbar, etc.)
@@ -36,7 +37,7 @@ src/
 
 📄 Includes placeholder files and pages for future dynamic content
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Frontend Framework: React.js
 
@@ -54,7 +55,7 @@ IDE/Editor: VS Code (recommended)
 To run the project locally:
 
 # Clone this repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/SaiCharan240905/dab-website-replica
 
 # Navigate into the project directory
 cd your-repo-name
@@ -64,14 +65,19 @@ npm install
 
 # Run the development server
 npm start
+
 Then open http://localhost:3000 in your browser.
 
 ## 📌 Folder Naming Convention
+
 assets/ – Images like kiran.jpg, diamond.jpg
+
 components/ – React components like Header.js, Navbar.js, etc.
+
 pages/ – Screens like HomePage.js, AboutPage.js, etc.
 
-##🌟 Future Improvements
+## 🌟 Future Improvements
+
 🔄 Integration with a backend using Java Spring Boot
 
 🧾 Contact form functionality and data storage
@@ -84,18 +90,22 @@ pages/ – Screens like HomePage.js, AboutPage.js, etc.
 
 💬 Chatbot integration (optional)
 
-##🤝 Contributions
+## 🤝 Contributions
+
 This project is currently a solo initiative, but contributions, ideas, and improvements are always welcome!
 
-📃 License
-This project is intended for educational and personal learning purposes only.
-It is not affiliated with or endorsed by the original creators of diamondassociationbangalore.org.
+## 📃 License
 
-##🔗 Live Demo - (https://dab-clone-2409.netlify.app/)
+This project is intended for educational and personal learning purposes only. It is not affiliated with or endorsed by the original creators of diamondassociationbangalore.org.
 
-🙋‍♂️ Author
+## 🔗 Live Demo - (https://dab-clone-2409.netlify.app/)
+
+## 🙋‍♂️ Author
+
 M. Sai Charan
+
 🔗 www.linkedin.com/in/madki-sai-charan
+
 📫 Email: saicharanaiml.edam@gmail.com
 
 
