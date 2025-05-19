@@ -1,0 +1,67 @@
+/* History.css */
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* History Section Styling */
+.history-section {
+  padding: 50px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Heading Styles */
+.history-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Paragraph Styling with Justification */
+.history-section p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.2s;
+  text-align: justify; /* Justifies the text */
+  text-justify: inter-word; /* Adds space between words for proper justification */
+  margin-left: 10%;
+  margin-right: 10%; /* Adding some padding to prevent text from sticking to the edges */
+}
+
+/* Top 10 Diamonds List Styling */
+.diamonds-paragraph {
+  margin-top: 30px;
+}
+
+.diamonds-list {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.diamonds-list li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.diamonds-list strong {
+  font-weight: bold;
+}

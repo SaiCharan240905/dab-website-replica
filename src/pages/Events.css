@@ -1,0 +1,48 @@
+/* Events.css */
+
+.events-page {
+  padding: 40px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 2s forwards; /* Fade in effect */
+}
+
+.events-page h2,
+.events-page p {
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.events-page h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.events-page p {
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.events-page p:hover {
+  color: #f39c12; /* Change color on hover */
+}

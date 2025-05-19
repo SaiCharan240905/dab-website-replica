@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+  background-color: white;
+  padding: 20px 0;
+  color: #fff;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+}
+
+.center {
+  flex: 2;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}

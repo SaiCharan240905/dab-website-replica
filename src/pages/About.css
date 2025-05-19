@@ -1,0 +1,75 @@
+/* About.css */
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* About Page Styling */
+.about-page {
+  padding: 40px;
+  text-align: center;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.2s;
+}
+
+/* Intro Text Styling */
+.intro {
+  margin-bottom: 30px;
+}
+
+.highlighted-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  display: block;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+/* Justifying Paragraph Content */
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify; /* Justifies the text */
+  text-justify: inter-word; /* Ensures proper spacing between words */
+  margin-left: 10%;
+  margin-right: 10%; /* Adds padding on both sides */
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* About Section Styling */
+.about-section {
+  padding: 50px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #333;
+  text-align: justify; /* Justifies the text */
+  text-justify: inter-word; /* Ensures proper spacing between words */
+  margin-left: 10%;
+  margin-right: 10%; /* Adds padding on both sides */
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.6s;
+}

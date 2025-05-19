@@ -1,0 +1,65 @@
+.contact-section {
+  padding: 50px 20px;
+  background-color: #f1f1f1;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeIn 1.2s ease-in-out;
+}
+.contact-section {
+  text-align: center;
+}
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact-greeting {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-content {
+  text-align: justify;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  animation: fadeUp 1s ease-in-out;
+}
+
+.contact-info {
+  text-align: justify;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  animation: fadeUp 1.2s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
