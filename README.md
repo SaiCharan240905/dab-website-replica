@@ -81,7 +81,9 @@ This project is currently a solo initiative, but contributions, ideas, and impro
 
 This project is intended for educational and personal learning purposes only. It is not affiliated with or endorsed by the original creators of diamondassociationbangalore.org.
 
-## 🔗 Live Demo - (https://dab-clone-2409.netlify.app/)
+## 🌐 Live Demo
+
+🔗 (https://dab-clone-2409.netlify.app/)
 
 ## 🙋‍♂️ Author
 
